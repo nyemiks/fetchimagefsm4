@@ -1,0 +1,261 @@
+; This is the Calva REPL Window.
+; It's just a file, really, with some special treatment from Calva.
+; Use it as a REPL input prompt if you like. (When the REPL is connected.)
+; TIPS: The keyboard shortcut `ctrl+alt+o r` shows and focuses this window
+; Please see https://calva.io/repl-window/ for more info.
+; Happy coding! ♥️
+
+; TIPS: As with any Clojure file when the REPL is connected:
+; - `alt+enter` evaluates the current top level form.
+; - `ctrl+enter` evaluates the current form.
+; Special for this file:
+; - `alt+up` and `alt+down` traverse up and down the REPL command history
+;    when the cursor is after the last contents at the prompt
+; 
+; See also the Calva Inspector: https://calva.io/inspector/
+
+PLEASE NOTE
+We will update the default location of this file.
+The new default location will be
+  "<projectRootPath>/.calva/repl.calva-repl"
+For now the legacy path is used by default.
+To give yourself a smooth transition, you can opt in
+to the change, by configuring this setting as false:
+  "calva.useLegacyReplWindowPath"
+and then add "**/.calva/repl.calva-repl" to your ".gitignore" file.
+
+
+This file is configured as the output destination for all REPL output.
+You can configure this with the setting:
+  "calva.outputDestinations"
+
+
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: pushd c:\Users\nyemi\Documents\react\myproject2\fetchimagefsm4 & npx.cmd shadow-cljs -d cider/cider-nrepl:0.47.1 watch :app & popd
+; Using host:port localhost:8777 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: pushd c:\Users\nyemi\Documents\react\myproject2\fetchimagefsm4 & npx.cmd shadow-cljs -d cider/cider-nrepl:0.47.1 watch :app & popd
+; Using host:port localhost:8777 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+; Please start your ClojureScript app (load it in the browser, or whatever is appropriate) so that Calva can connect to its REPL...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+nil
+"Please see https://calva.io/output/#about-stdout-in-the-repl-window
+about why stdout printed to this file is prepended with `;` to be line comments."
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+; [:app] Compiling ...
+; [:app] Build completed. (308 files, 2 compiled, 2 warnings, 0.41s)
+; Warnings in Library Code:
+;  Bad method signature in protocol implementation, delayed/IScheduler schedule does not declare arity 3
+;  Bad method signature in protocol implementation, delayed/IScheduler unschedule does not declare arity 2
+; [:app] Compiling ...
+; [:app] Build completed. (308 files, 2 compiled, 2 warnings, 0.29s)
+; Warnings in Library Code:
+;  Bad method signature in protocol implementation, delayed/IScheduler schedule does not declare arity 3
+;  Bad method signature in protocol implementation, delayed/IScheduler unschedule does not declare arity 2
+; [:app] Compiling ...
+; [:app] Build completed. (308 files, 2 compiled, 2 warnings, 0.40s)
+; Warnings in Library Code:
+;  Bad method signature in protocol implementation, delayed/IScheduler schedule does not declare arity 3
+;  Bad method signature in protocol implementation, delayed/IScheduler unschedule does not declare arity 2
+; [:app] Compiling ...
+; [:app] Build completed. (308 files, 2 compiled, 2 warnings, 0.35s)
+; Warnings in Library Code:
+;  Bad method signature in protocol implementation, delayed/IScheduler schedule does not declare arity 3
+;  Bad method signature in protocol implementation, delayed/IScheduler unschedule does not declare arity 2
+; [:app] Compiling ...
+; [:app] Build completed. (308 files, 2 compiled, 2 warnings, 0.37s)
+; Warnings in Library Code:
+;  Bad method signature in protocol implementation, delayed/IScheduler schedule does not declare arity 3
+;  Bad method signature in protocol implementation, delayed/IScheduler unschedule does not declare arity 2
+; [:app] Compiling ...
+; [:app] Build completed. (308 files, 2 compiled, 2 warnings, 0.55s)
+; Warnings in Library Code:
+;  Bad method signature in protocol implementation, delayed/IScheduler schedule does not declare arity 3
+;  Bad method signature in protocol implementation, delayed/IScheduler unschedule does not declare arity 2
+; [:app] Compiling ...
+; [:app] Build completed. (308 files, 2 compiled, 2 warnings, 0.46s)
+; Warnings in Library Code:
+;  Bad method signature in protocol implementation, delayed/IScheduler schedule does not declare arity 3
+;  Bad method signature in protocol implementation, delayed/IScheduler unschedule does not declare arity 2
+; [:app] Compiling ...
+; [:app] Build completed. (308 files, 2 compiled, 2 warnings, 0.39s)
+; Warnings in Library Code:
+;  Bad method signature in protocol implementation, delayed/IScheduler schedule does not declare arity 3
+;  Bad method signature in protocol implementation, delayed/IScheduler unschedule does not declare arity 2
+; [:app] Compiling ...
+; [:app] Build completed. (308 files, 2 compiled, 2 warnings, 0.44s)
+; Warnings in Library Code:
+;  Bad method signature in protocol implementation, delayed/IScheduler schedule does not declare arity 3
+;  Bad method signature in protocol implementation, delayed/IScheduler unschedule does not declare arity 2
+; [:app] Compiling ...
+; [:app] Build completed. (308 files, 2 compiled, 2 warnings, 0.61s)
+; Warnings in Library Code:
+;  Bad method signature in protocol implementation, delayed/IScheduler schedule does not declare arity 3
+;  Bad method signature in protocol implementation, delayed/IScheduler unschedule does not declare arity 2
+; [:app] Compiling ...
+; [:app] Build completed. (308 files, 2 compiled, 5 warnings, 0.35s)
+; 
+; ------ WARNING #1 - :undeclared-var --------------------------------------------
+;  File: C:\Users\nyemi\Documents\react\myproject2\fetchimagefsm4\src\fetchimagefsm4\views.cljs:159:19
+; --------------------------------------------------------------------------------
+;  156 |         [:h1
+;  157 |           "Hello from " @name]
+;  158 |      
+;  159 |         (when (= @state ::fetching) [:p "loading..."])
+; -------------------------^------------------------------------------------------
+;  Use of undeclared Var fetchimagefsm4.views/state
+; --------------------------------------------------------------------------------
+;  160 |         (when (= @state ::success)  [:p "success !!"]
+;  161 |               )
+;  162 |         (when (= @state ::error) [:p "An error occured"])
+;  163 |         [:button {
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #2 - :undeclared-var --------------------------------------------
+;  File: C:\Users\nyemi\Documents\react\myproject2\fetchimagefsm4\src\fetchimagefsm4\views.cljs:160:19
+; --------------------------------------------------------------------------------
+;  157 |           "Hello from " @name]
+;  158 |      
+;  159 |         (when (= @state ::fetching) [:p "loading..."])
+;  160 |         (when (= @state ::success)  [:p "success !!"]
+; -------------------------^------------------------------------------------------
+;  Use of undeclared Var fetchimagefsm4.views/state
+; --------------------------------------------------------------------------------
+;  161 |               )
+;  162 |         (when (= @state ::error) [:p "An error occured"])
+;  163 |         [:button {
+;  164 |                   :on-click (fn []
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #3 - :undeclared-var --------------------------------------------
+;  File: C:\Users\nyemi\Documents\react\myproject2\fetchimagefsm4\src\fetchimagefsm4\views.cljs:162:19
+; --------------------------------------------------------------------------------
+;  159 |         (when (= @state ::fetching) [:p "loading..."])
+;  160 |         (when (= @state ::success)  [:p "success !!"]
+;  161 |               )
+;  162 |         (when (= @state ::error) [:p "An error occured"])
+; -------------------------^------------------------------------------------------
+;  Use of undeclared Var fetchimagefsm4.views/state
+; --------------------------------------------------------------------------------
+;  163 |         [:button {
+;  164 |                   :on-click (fn []
+;  165 |                               (.info js/console "get image ... ")
+;  166 |                                ;  (re-frame/dispatch [::rs/transition :imageFetcher ::BUTTON_CLICKED])                                                         
+; --------------------------------------------------------------------------------
+; Warnings in Library Code:
+;  Bad method signature in protocol implementation, delayed/IScheduler schedule does not declare arity 3
+;  Bad method signature in protocol implementation, delayed/IScheduler unschedule does not declare arity 2
+; [:app] Compiling ...
+; [:app] Build completed. (308 files, 2 compiled, 5 warnings, 0.28s)
+; 
+; ------ WARNING #1 - :undeclared-var --------------------------------------------
+;  File: C:\Users\nyemi\Documents\react\myproject2\fetchimagefsm4\src\fetchimagefsm4\views.cljs:159:19
+; --------------------------------------------------------------------------------
+;  156 |         [:h1
+;  157 |           "Hello from " @name]
+;  158 |      
+;  159 |         (when (= @state ::fetching) [:p "loading..."])
+; -------------------------^------------------------------------------------------
+;  Use of undeclared Var fetchimagefsm4.views/state
+; --------------------------------------------------------------------------------
+;  160 |         (when (= @state ::success)  [:p "success !!"]
+;  161 |               )
+;  162 |         (when (= @state ::error) [:p "An error occured"])
+;  163 |         [:button {
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #2 - :undeclared-var --------------------------------------------
+;  File: C:\Users\nyemi\Documents\react\myproject2\fetchimagefsm4\src\fetchimagefsm4\views.cljs:160:19
+; --------------------------------------------------------------------------------
+;  157 |           "Hello from " @name]
+;  158 |      
+;  159 |         (when (= @state ::fetching) [:p "loading..."])
+;  160 |         (when (= @state ::success)  [:p "success !!"]
+; -------------------------^------------------------------------------------------
+;  Use of undeclared Var fetchimagefsm4.views/state
+; --------------------------------------------------------------------------------
+;  161 |               )
+;  162 |         (when (= @state ::error) [:p "An error occured"])
+;  163 |         [:button {
+;  164 |                   :on-click (fn []
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #3 - :undeclared-var --------------------------------------------
+;  File: C:\Users\nyemi\Documents\react\myproject2\fetchimagefsm4\src\fetchimagefsm4\views.cljs:162:19
+; --------------------------------------------------------------------------------
+;  159 |         (when (= @state ::fetching) [:p "loading..."])
+;  160 |         (when (= @state ::success)  [:p "success !!"]
+;  161 |               )
+;  162 |         (when (= @state ::error) [:p "An error occured"])
+; -------------------------^------------------------------------------------------
+;  Use of undeclared Var fetchimagefsm4.views/state
+; --------------------------------------------------------------------------------
+;  163 |         [:button {
+;  164 |                   :on-click (fn []
+;  165 |                               (.info js/console "get image ... ")
+;  166 |                                ;  (re-frame/dispatch [::rs/transition :imageFetcher ::BUTTON_CLICKED])                                                         
+; --------------------------------------------------------------------------------
+; Warnings in Library Code:
+;  Bad method signature in protocol implementation, delayed/IScheduler schedule does not declare arity 3
+;  Bad method signature in protocol implementation, delayed/IScheduler unschedule does not declare arity 2
+; [:app] Compiling ...
+; [:app] Build completed. (308 files, 2 compiled, 2 warnings, 0.43s)
+; Warnings in Library Code:
+;  Bad method signature in protocol implementation, delayed/IScheduler schedule does not declare arity 3
+;  Bad method signature in protocol implementation, delayed/IScheduler unschedule does not declare arity 2
+; [:app] Compiling ...
+; [:app] Build completed. (308 files, 2 compiled, 2 warnings, 0.48s)
+; Warnings in Library Code:
+;  Bad method signature in protocol implementation, delayed/IScheduler schedule does not declare arity 3
+;  Bad method signature in protocol implementation, delayed/IScheduler unschedule does not declare arity 2
+; [:app] Compiling ...
+; [:app] Build completed. (308 files, 2 compiled, 2 warnings, 0.37s)
+; Warnings in Library Code:
+;  Bad method signature in protocol implementation, delayed/IScheduler schedule does not declare arity 3
+;  Bad method signature in protocol implementation, delayed/IScheduler unschedule does not declare arity 2
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
