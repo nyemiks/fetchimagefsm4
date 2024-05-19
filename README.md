@@ -1,7 +1,8 @@
 # fetchimagefsm4
 
-A [re-frame](https://github.com/day8/re-frame) application designed to ... well, that part is up to
-you.
+A [re-frame](https://github.com/day8/re-frame) application designed to fetch images from picsum api. This app experiments the use of re-statecharts
+ finite state machine library in open mode. see the project fetchimagefsm3 to see how re-statecharts was used in closed mode.
+
 
 ## Getting Started
 
